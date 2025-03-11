@@ -11,6 +11,8 @@ package com.mycompany.prjclasses;
 public class PrjClasses {
 
     public static void main(String[] args) {
-        System.out.println("Hello World! I just got my PHD");
+        newClass nc = new newClass();
+        nc.helloClass( ); //have to use variable name nc to comunicate with the class
+       System.out.println(nc.strSecondClassVar); //output variable from second class
     }
 }
